@@ -2,4 +2,31 @@
 
 body {
 	font-family: 'Roboto','Noto Sans JP', sans-serif;
+	font-weight: 400;
+}
+
+h1  {
+	text-align: center;
+}
+
+.test {
+	padding: 0.5em;
+	font-size: 50px;
+	background-color: #ddd;
+}
+
+pre {
+	padding: 2em;
+	background-color: #ddd;
+}
+
+.image {
+	width: 80%;
+	margin-top: 40px;
+	border: solid #ccc;
+	padding: 40px;
+}
+
+.image img {
+	width: 100%;
 }

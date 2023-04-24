@@ -14,21 +14,35 @@
 </head>
 
 <body>
-<h1 class="test">
-	フォントファミリーの検証
-</h1>
-<h2 class="roboto">
-	これはロボット
+	<h1>フォントファミリーについての検証</h1>
+<h2 class="">
+	bodyタグに、以下の指定
 </h2>
-<p class="roboto">
-	This font is "roboto"
-</p>
-<h2 class="notoSansJP">
-	これはロボット
+	<pre>
+	body {
+		font-family: 'Roboto','Noto Sans JP', sans-serif;
+	}</pre>
+<h2 class="">
+	英字フォントには、'Roboto'が反映される。
 </h2>
-<p class="notoSansJP">
-	This font is "notoSansJP"
+<p class="test">
+	This font is  a paragraph in engllish.
 </p>
+<h2 class="">
+	日本語文字列には、'Noto Sans JP'が反映される。
+</h2>
+<p class="test">
+	日本語の文字列。テキスト。テキスト。テキスト。
+</p>
+<h2>確認は検証ツールのElements>Consoleから</h2>
+<p>
+	どのフォントが適用されているかは、Elements>Consoleから確認できる。<br />
+	画面一番下の、Rendered Fontsに、実際に適用されているフォントファミリーが表示される。<br />
+	日本語＋英語の文章の場合には、複数表示される。
+</p>
+	<div class="image">
+		<img src="./images/Document.png" alt="">
+	</div>
 </body>
 
 </html>
